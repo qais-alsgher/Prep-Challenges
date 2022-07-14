@@ -53,12 +53,12 @@ for(let i=0;i<arr.length;i++){
 // Output: "leetcode"
 // Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.
 
-const shuffleString = (str, indicesArr) => {
+const shuffleString = (str, inticesArr) => {
   let strArray =Array.from(str);
   let aa =[];
 
-   for(let i=0;i<indicesArr.length;i++){
-       aa[indicesArr[i]]=strArray[i];
+   for(let i=0;i<inticesArr.length;i++){
+       aa[inticesArr[i]]=strArray[i];
    }
 
   let reslt=aa.join('');
